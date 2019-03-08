@@ -13,7 +13,7 @@ class LandingPage extends Component {
                             alt="hi"
                             className="nathan-img" />
 
-                        <div className="banner-text"><h1>Software Developer</h1>
+                        <div className="banner-text"><h1>Data Scientist</h1>
                         <hr/>
                         <p>Java | Python | C | Perl | Machine Learning | Natural Language Processing</p>
 
