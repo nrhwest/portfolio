@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-          <Header className="header-color" title="Nathan's Portfolio" scroll>
+          <Header className="header-color" link="/landing_page" title="Nathan's Portfolio" scroll>
             <Navigation>
               <Link to="/resume">Resume</Link>
               <Link to="/about_me">About Me</Link>
