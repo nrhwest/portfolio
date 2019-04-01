@@ -45,6 +45,11 @@ code {
   font-weight: bold;
 }
 
+.resume-right-col {
+  background: #27221F;
+  color: white;
+}
+
 .header-color {
   background: #1D4350;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */

@@ -13,8 +13,9 @@ class App extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-          <Header className="header-color" link="/landing_page" title="Nathan's Portfolio" scroll>
+          <Header className="header-color" href="/landing_page" title="Nathan's Portfolio" scroll>
             <Navigation>
+              <Link to="/landing_page">Home</Link>
               <Link to="/resume">Resume</Link>
               <Link to="/about_me">About Me</Link>
               <Link to="/projects">Projects</Link>
@@ -23,6 +24,7 @@ class App extends Component {
           </Header>
           <Drawer title="Nathan's Portfolio">
             <Navigation>
+              <Link to="/landing_page">Home</Link>  
               <Link to="/resume">Resume</Link>
               <Link to="/about_me">About Me</Link>
               <Link to="/projects">Projects</Link>
