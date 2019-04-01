@@ -23,6 +23,11 @@
   align-content: center;
 }
 
+.contact-list i {
+  font-size: 50px;
+  padding-right: 5rem;
+}
+
 .banner-text {
   background-color: black;
   opacity: .8;

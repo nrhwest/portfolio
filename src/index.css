@@ -19,11 +19,11 @@ code {
 
 .contact-body {
   margin: auto;
-  background: grey;
   position: fixed;
   width: 100%;
   height: 100%;
   justify-content: 2em;
+  padding-top: 1em;
 }
 
 .contact-grid {
@@ -33,8 +33,16 @@ code {
   height: 550px;
   background: white;
   color: black;
-  border: 2px solid red;
   margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
 }
 
 .header-color {
@@ -98,4 +106,15 @@ code {
   color: white;
   font-size: 4em;
   padding: 8px;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 50px;
+  padding-right: 5rem;
 }
